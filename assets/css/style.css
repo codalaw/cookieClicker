@@ -1,0 +1,51 @@
+.body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(235, 139, 14, 0.71);
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px; 
+}
+#gameContainer {
+    width: 800px;
+    height: 800px;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cookie{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.cookie img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    
+}
+
+.cookie img:active {
+    filter: drop-shadow(5px -1px 10px #000000); 
+}
+.counter {
+    text-align: center;
+    font-size: 30px;
+}

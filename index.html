@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker Game</title>
+    <link rel="stylesheet" href="assets\css\style.css">
+</head>
+<body>
+    <h1 class="title">Cookie Clicker</h1>
+    <div id="gameContainer">
+        <div class="counter">
+            <p>You Have <span id="cookieCount">0</span> Cookies</p>
+        </div>
+        <div onclick="increment()" class="cookie">
+            <img src="assets\photo\cookie.png">
+            <audio id="clickSound" src="assets\sound\click.wav"></audio>
+        </div>
+        <button onclick="reset()" id="resetBtn">RESET</button>
+    </div>
+<script src="script.js" ></script>    
+</body>
+</html>
